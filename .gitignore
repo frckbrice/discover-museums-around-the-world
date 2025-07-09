@@ -40,5 +40,6 @@ yarn-error.log*
 *.tsbuildinfo
 next-env.d.ts
 
-ADMIN_DASHBOARD_GUIDE
-OPTIMIZATION_GUIDE
+ADMIN_DASHBOARD_GUIDE.md
+OPTIMIZATION_GUIDE.md
+#
