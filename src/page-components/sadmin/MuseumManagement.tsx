@@ -573,7 +573,7 @@ import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
 import { Skeleton } from "@/components/ui/skeleton";
 import { apiRequest } from "@/lib/queryClient";
 import { useToast } from "@/hooks/use-toast";
-import { Museum } from "@/types";
+import { Museum } from "../../../../badagry_backend/types";
 import { Check, X, Search, Plus } from "lucide-react";
 import { useRouter } from "next/navigation";
 

@@ -31,7 +31,7 @@ import {
 } from "lucide-react";
 import { apiRequest, queryClient } from "@/lib/queryClient";
 import { useToast } from "@/hooks/use-toast";
-import { PlatformSettings } from "@/types";
+import { PlatformSettings } from "../../../../badagry_backend/types";
 import { useRouter } from "next/navigation";
 import { toast } from "sonner";
 

@@ -16,7 +16,7 @@ import { Switch } from "@/components/ui/switch";
 import { Skeleton } from "@/components/ui/skeleton";
 import { apiRequest } from "@/lib/queryClient";
 import { useToast } from "@/hooks/use-toast";
-import { Event } from "@/types/Event";
+import { Event } from "../../../../badagry_backend/types/Event";
 import { formatDate } from "@/lib/utils";
 import { Calendar, Clock, MapPin, Plus, Edit, Trash2, Search, Eye } from "lucide-react";
 import { useRouter } from "next/router";

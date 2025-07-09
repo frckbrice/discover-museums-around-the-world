@@ -1,7 +1,7 @@
 import { type ClassValue, clsx } from "clsx";
 import { twMerge } from "tailwind-merge";
 import { format } from "date-fns";
-import { Museum } from "@/types";
+import { Museum } from "../../../badagry_backend/types";
 
 export function cn(...inputs: ClassValue[]) {
   return twMerge(clsx(inputs));

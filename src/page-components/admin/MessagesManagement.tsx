@@ -16,7 +16,7 @@ import { Label } from "@/components/ui/label";
 import { Separator } from "@/components/ui/separator";
 import { apiRequest } from "@/lib/queryClient";
 import { useToast } from "@/hooks/use-toast";
-import { ContactMessage } from "@/types";
+import { ContactMessage } from "../../../../badagry_backend/types";
 import { formatDate } from "@/lib/utils";
 import { Mail, MailOpen, Search, Trash2, Eye, Reply, Send, MessageSquare, Calendar } from "lucide-react";
 

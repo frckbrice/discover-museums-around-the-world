@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
 import { useQuery } from "@tanstack/react-query";
-import { MediaItem } from "@/types";
+import { MediaItem } from "../../../badagry_backend/types";
 
 interface UseGalleryOptions {
   museumId?: string;

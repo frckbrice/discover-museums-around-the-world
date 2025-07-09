@@ -38,7 +38,7 @@ import {
   Trash2,
   Edit
 } from "lucide-react";
-import type { EmailTemplate, Museum, User } from "@/types";
+import type { EmailTemplate, Museum, User } from "../../../../badagry_backend/types";
 
 function Settings() {
   const { user } = useAuth();

@@ -15,7 +15,7 @@ import RichTextEditor from "@/components/editor/RichTextEditor";
 import { apiRequest } from "@/lib/queryClient";
 import { useToast } from "@/hooks/use-toast";
 // TODO: Replace 'storySchema' with the actual exported schema from "@/models/Story"
-import { Story } from "@/types/Story";
+import { Story } from "../../../../badagry_backend/types/Story";
 import { zodResolver } from "@hookform/resolvers/zod";
 import { useForm } from "react-hook-form";
 import { z } from "zod";

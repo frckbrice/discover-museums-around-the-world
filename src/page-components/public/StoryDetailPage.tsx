@@ -9,7 +9,7 @@ import { useMuseums } from "@/hooks/useMuseums";
 import { format } from "date-fns";
 import { useParams, usePathname, useRouter } from "next/navigation";
 import Link from "next/link";
-import { Story } from "@/types";
+import { Story } from "../../../../badagry_backend/types";
 
 type MuseumProfilePageProps = {
   storyId: string;

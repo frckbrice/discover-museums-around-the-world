@@ -14,7 +14,7 @@ import { Dialog, DialogContent, DialogDescription, DialogFooter, DialogHeader, D
 import { apiRequest } from "@/lib/queryClient";
 import { useToast } from "@/hooks/use-toast";
 import { Check, X, Search, Info, Eye } from "lucide-react";
-import { Story, MediaItem, Museum } from "@/types";
+import { Story, MediaItem, Museum } from "../../../../badagry_backend/types";
 import { useRouter } from "next/navigation";
 
 

@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
 import { useQuery } from "@tanstack/react-query";
-import { Museum } from "@/types";
+import { Museum } from "../../../badagry_backend/types";
 import { apiRequest } from "@/lib/queryClient";
 
 interface UseMuseumsOptions {

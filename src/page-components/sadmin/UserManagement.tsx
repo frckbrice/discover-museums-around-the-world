@@ -625,7 +625,7 @@ import { Badge } from "@/components/ui/badge";
 import { Switch } from "@/components/ui/switch";
 import { apiRequest } from "@/lib/queryClient";
 import { useToast } from "@/hooks/use-toast";
-import { User } from "@/types";
+import { User } from "../../../../badagry_backend/types";
 import { Search, UserPlus, Edit, Key } from "lucide-react";
 import { useRouter } from "next/navigation";
 import { toast } from "sonner";

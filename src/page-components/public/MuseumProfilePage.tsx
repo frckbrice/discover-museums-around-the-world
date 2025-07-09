@@ -10,7 +10,7 @@ import ContactForm from "@/components/shared/ContactForm";
 import { Badge } from "@/components/ui/badge";
 import { Skeleton } from "@/components/ui/skeleton";
 import { useParams } from "next/navigation";
-import { Event, Museum, Timeline } from "@/types";
+import { Event, Museum, Timeline } from "../../../../badagry_backend/types";
 
 type MuseumProfilePageProps = {
   museumId: string;

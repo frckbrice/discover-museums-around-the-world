@@ -18,7 +18,7 @@ import { Form, FormControl, FormField, FormItem, FormLabel, FormMessage } from "
 import { apiRequest } from "@/lib/queryClient";
 import { useToast } from "@/hooks/use-toast";
 import { Save, MapPin, Globe, Building2 } from "lucide-react";
-import { Museum } from "@/types/Museum";
+import { Museum } from "../../../../badagry_backend/types/Museum";
 
 const museumProfileSchema = z.object({
   name: z.string().min(2, "Museum name must be at least 2 characters"),

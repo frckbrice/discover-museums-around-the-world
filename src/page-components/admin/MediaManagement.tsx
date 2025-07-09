@@ -14,7 +14,7 @@ import { Label } from "@/components/ui/label";
 import { Textarea } from "@/components/ui/textarea";
 import { apiRequest } from "@/lib/queryClient";
 import { useToast } from "@/hooks/use-toast";
-import { MediaItem } from "@/types/MediaItem";
+import { MediaItem } from "../../../../badagry_backend/types/MediaItem";
 import { formatDate } from "@/lib/utils";
 import {
   Image,

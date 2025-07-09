@@ -7,7 +7,7 @@ import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/com
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
 import { Skeleton } from "@/components/ui/skeleton";
 import { useRouter } from "next/navigation";
-import { Analytic, Museum } from "@/types";
+import { Analytic, Museum } from "../../../../badagry_backend/types";
 
 export default function SuperAdminDashboard() {
   const router = useRouter()
