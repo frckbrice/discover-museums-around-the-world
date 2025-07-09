@@ -1,0 +1,78 @@
+{
+  "name": "MuseumHubs - Explore the World's Cultural Heritage",
+  "short_name": "MuseumHubs",
+  "description": "Immerse yourself in stories and artifacts from museums across the globe. Discover exceptional collections and immersive experiences from South Africa, Cameroon, Nigeria, Egypt, and beyond.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#000000",
+  "orientation": "portrait-primary",
+  "scope": "/",
+  "lang": "en",
+  "categories": [
+    "education",
+    "travel",
+    "culture"
+  ],
+  "icons": [
+    {
+      "src": "https://museumcall.com/logo-museum.jpg",
+      "sizes": "192x192",
+      "type": "image/jpeg",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "https://museumcall.com/logo-museum.jpg",
+      "sizes": "512x512",
+      "type": "image/jpeg",
+      "purpose": "any maskable"
+    }
+  ],
+  "screenshots": [
+    {
+      "src": "https://museumcall.com/images/museum-hero-new.jpg",
+      "sizes": "1280x720",
+      "type": "image/jpeg",
+      "form_factor": "wide",
+      "label": "MuseumHubs Homepage"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Explore Museums",
+      "short_name": "Museums",
+      "description": "Browse museums around the world",
+      "url": "/museums",
+      "icons": [
+        {
+          "src": "https://museumcall.com/logo-museum.jpg",
+          "sizes": "96x96"
+        }
+      ]
+    },
+    {
+      "name": "Cultural Stories",
+      "short_name": "Stories",
+      "description": "Read cultural stories and heritage",
+      "url": "/stories",
+      "icons": [
+        {
+          "src": "https://museumcall.com/logo-museum.jpg",
+          "sizes": "96x96"
+        }
+      ]
+    },
+    {
+      "name": "Interactive Map",
+      "short_name": "Map",
+      "description": "Explore museums on an interactive map",
+      "url": "/map",
+      "icons": [
+        {
+          "src": "https://museumcall.com/logo-museum.jpg",
+          "sizes": "96x96"
+        }
+      ]
+    }
+  ]
+}

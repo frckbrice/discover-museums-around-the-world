@@ -1,0 +1,60 @@
+.slick-slider {
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 20px;
+  }
+  
+  .slick-list {
+    overflow: hidden;
+    padding: 60px 0 !important;
+    width: 100%;
+  }
+  
+  .slick-track {
+    display: flex;
+  }
+  
+  .slick-slide div {
+    display: flex !important;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .slick-slide .image {
+    object-fit: cover;
+    width: 100% !important;
+    border-radius: 2px;
+  }
+  
+  @media screen and (max-width: 580px) {
+    .slick-slide div div div {
+      display: none;
+    }
+  
+    .slick-slide.slick-current div div div {
+      display: block;
+      text-align: center;
+      color: #111;
+    }
+  }
+  
+  /* Slide stacking and scaling */
+  .slick-slide {
+    transition: transform 0.3s ease;
+  }
+  
+  .slick-slide:not(.slick-active) {
+    z-index: 1;
+  }
+  
+  .slick-slide.slick-active:not(.slick-current) {
+    z-index: 2;
+  }
+  
+  .slick-slide.slick-active.slick-current {
+    z-index: 3;
+  }
+  
