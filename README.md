@@ -67,7 +67,7 @@
    
        Configure your environment variables:
     ```env
-    NEXT_PUBLIC_SITE_URL=https://museumhubs.com
+    NEXT_PUBLIC_SITE_URL=https://museumcall.com
     NEXT_PUBLIC_GA_ID=your-google-analytics-id
     NEXT_PUBLIC_VERIFICATION_GOOGLE=your-google-verification
     ```
