@@ -32,6 +32,7 @@ yarn-error.log*
 
 # env files (can opt-in for committing if needed)
 .env*
+.env
 
 # vercel
 .vercel
@@ -42,4 +43,5 @@ next-env.d.ts
 
 ADMIN_DASHBOARD_GUIDE.md
 OPTIMIZATION_GUIDE.md
+ADMIN_DASHBOARD_GUIDE.md
 #
