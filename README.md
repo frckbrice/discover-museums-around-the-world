@@ -231,28 +231,6 @@ Strict TypeScript configuration with:
 - Fast loading times
 - Optimized images and fonts
 
-## 🚀 Deployment
-
-### Vercel 
-1. Connect your GitHub repository to Vercel
-2. Configure environment variables
-3. Deploy automatically on push
-
-### Other Platforms
-The application can be deployed to any platform supporting Node.js:
-- Netlify
-- Railway
-- DigitalOcean App Platform
-- AWS Amplify
-
-### Environment Variables
-```env
-NEXT_PUBLIC_SITE_URL=https://museumhubs.com
-NEXT_PUBLIC_GA_ID=google-analytics-id
-NEXT_PUBLIC_VERIFICATION_GOOGLE=verification-code
-...
-
-```
 
 ## 🧪 Testing
 
@@ -286,14 +264,6 @@ npm run test:seo  # Sitemap validation
 - High contrast mode usage
 - Reduced motion preferences
 
-
-## 📚 Documentation
-
-- [Optimization Guide](OPTIMIZATION_GUIDE.md) - Comprehensive optimization details
-- [API Documentation](docs/API.md) - Backend API reference
-- [Component Library](docs/COMPONENTS.md) - UI component documentation
-- [Accessibility Guide](docs/ACCESSIBILITY.md) - Accessibility implementation details
-
 ## 🏆 Awards & Recognition
 
 - **Performance**: 95+ Lighthouse Performance Score
@@ -315,7 +285,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ---
 
 <div align="center">
-  <p>Made with ❤️ by the MuseumHubs Team</p>
+  <p>Made with ❤️ by the Museumcall Team</p>
   <p>Explore the world's cultural heritage, one story at a time.</p>
-  <p><a href="https://museumhubs.com">Visit MuseumHubs.com</a></p>
+  <p><a href="https://museumcall.com">Visit MuseumHubs.com</a></p>
 </div>
